@@ -1,0 +1,14 @@
+1. What is good HTML?
+2. What is progressive enhancement?
+3. What is accesibility?
+4. Do you use requireJS?
+6. When do you use custom framework and when you do your own framework?
+7. What is your approach for three blocks at the middle of page in big desktop when it should go to
+small devices? How do you clear all? both?
+8. What is your approach to design when graphics designer gives you a design?
+9. Do you do TDD? or BDD?
+10. Have you done node?
+11. How do you make your own framework?
+12. How did you do Argos Question Manager?
+13. Give the examples of work you enjoyed most?
+14. Do you use modenizer to have accessibility and cross browser with same way?

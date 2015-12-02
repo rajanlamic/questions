@@ -1,0 +1,134 @@
+1. What are PHP securities vulnerbility?
+XSS, SQL Injection, Session HIjacking or Session Fixasion, CSRV, databse security, file system security
+password storage with hashing
+validate remote include, allowed location rules
+
+2. What is XSS attache and how to prevent it?
+Never trust the data coming from the user or third parties, always validate
+Always to output escaping e.g php function availables are htmlentities or htmlspecialchars
+Allowing untrusted data inject into the system could be malicious HTML or Javascript which does
+some wired things when output displayed and executed by PHP like redirect or message or whatever
+Escape javascript callback or JSON or whatever comes from ajax
+Sanitize any HTML
+
+3. What is SQL Injection attack and how to prevent it?
+Inject malicious sqls and let the system delete or down or whatever by the vulnerable system
+which does not validate the user input. 
+use mysql_real_escape_string or addslashes 
+don't reveal database information on error, on production error_reporign to 0
+use stored procedure that does not directly interact with database tables or view
+use prepared statement of PDO
+
+4. How to destroy cookies?
+bool setcookie ( string $name [, 
+string $value 
+[, int $expire = 0
+ [, string $path 
+[, string $domain 
+[, bool $secure = false 
+[, bool $httponly = false ]]]]]] )
+
+5. What is difference between abstract class and interface?
+6. What are type of MySQL database engine?
+INNODB, MyISAM, MEMORY(HEAP), ARCHIEVE, CSV etc
+
+7. What is the difference between MyISAM and InnoDB?
+Innodb - crash recovery, ACID Compliance, transactional, rollback, rowlevel locking, better for writing and cuncurrent connection
+MyISAM - non transactional non ACID compaince, support full text, table level locking, better for reading static data
+Other engine types are
+Memory (previously known as HEAP)- hash based, stored in memory, good for temporary tables
+Achieve - archieve storage engine
+CSV-CSV storage engines
+
+8. How to tune sql select query?
+Explain select * from table_name where col1=this and col2=that
+created index idx_speed on table_name(col1, cole2)
+Change to the right engine type, record slow sql queries
+
+9. How to repair mysql table?
+check table table_name - repair minor table like closed connection
+repair table table_name - optimize and repair table
+
+10. What is PHP Session and how it communicates?
+11. What is CSRF and how to prevent it?
+12. What is Session fixation and session hijacking and how to fix it?
+13. Is PHP single inheritance ? or multiple via interface?
+14. Which design patterns have you used?
+15. What is TDD?
+
+16. What is the difference between REST and SOAP.
+SOAP has defined format for message exchanges in XML. It was developed by Microsoft and not
+necessairy is use HTTP where is REST is http only and support all http methods like GET,
+PUT, DELETE, POST methods. SOAP has defined security and error handling system where as
+REST has to make own own on any light weight format.
+
+17 What image GD build in have you used? How to use some methods?
+getimagessize, imagezx, imagesy are some e.g of function available to draw images on 
+server and passes to browsers. GD extension is required while compiling PHP.
+
+18. What are magic quotes and why bad?
+Magic quotes on or off is the system level behaviour that could be turned on or off. As per
+PHP 5.3 its deprecated and from PHP 5.4 it has been removed completely. If magic quotes are 
+turned on from php.ini system settings, then every instance of string operation adds slash in place of
+quotes throughout the system and it adds burden for all operation even if its not needed for e.g email.
+If you want to stripped the quotes need to use stripslashes ending up with exesive use of strip slash. If
+similar behaviour is needed there is a function called addslashes which just add slash whereever is needed.
+
+19. Why is register global bad?
+This is a system feature in php set via php.ini which has been removed from PHP 5.4 and was deprecated
+from PHP 5.3. With register global on, PHP script injects variable from external sources like form
+submit or GET request via URL and changes the behaviour of program. Even if programmer checks for the
+existence of variable, external source could override it. So its a bad.
+
+20. What is Sanitization?
+sanitize are filters and validation for email or password or encode e.g FILTER_SANITIZE_EMAIL
+set via flat on on php.ini
+
+21. What are magic methods?
+__ starts with
+__sleep, serialize checks for __sleep()
+__wakeup is checked by unserialize()
+__toString() by echo $object
+__invoke - when object tries to call its method
+__set, __get, __call
+
+22. What is PEAR and what are available there?
+PEAR is frameworks in php for reusable code e.g pear.php.com, with xml library, date, auth etc
+
+23. What is composer and how to use it?
+
+24. How to resolve the conflict in GIT?
+SVN update will bring conflict with >>> mine and from the remote
+git status, git fetch or git pull has >>> head <<< branch and merge it
+
+25. What Server variable and identifier to get user agent and IP address?
+$_SERVER[''HTTP_USER_AGENT']; // for user agent
+$_SERVER['REMOTE_ADDR'] // remote IP address
+
+26. How to get date and time?
+27. What are the encryption used in PHP?
+28. What encoding available in PHP? urlencode and urldecode
+
+
+<!--
+security
+http://blog.templatemonster.com/2014/05/08/php-security-issues/
+http://www.sitepoint.com/top-10-php-security-vulnerabilities/
+http://radar.oreilly.com/2013/12/preventing-problems-in-php-security.html
+
+
+php include vs required
+http://stackoverflow.com/questions/2418473/when-should-i-use-require-once-vs-include
+-->
+
+Back Questions
+
+1. Is AGILE?
+2. How is team made up? size, distribution of skills?
+3. Frameworks?
+4. How requirements comes in to me? How do I know what should I work today? How my day to day would look like?
+5. What is the expectation for the candidate of this role? Who is the ideal candidate for this role.
+6. How to maintain the communication between team members ?
+7. Have you faced any challenge with this team functioning?
+8. What are the few challenges this role will have and what oppertunities you see?
+9. How do you take owr your approach towards as improving the technical skills up or technology upgrade? TDD, New versions, new frameworks, code review

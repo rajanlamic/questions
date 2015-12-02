@@ -1,0 +1,1 @@
+http://www.adequatelygood.com/Writing-Testable-JavaScript.html

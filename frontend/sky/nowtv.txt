@@ -1,0 +1,44 @@
+Angular
+
+Route in angular
+What are features of Angular and why you used it and what you liked about it
+
+
+General JS
+
+Hoinsting
+Inline css in which case is needed
+Prototype
+Why MVC from scratch
+How long Angular experiance you have and how do you learn it? Does the team had Angular expert
+Clouser
+
+
+Testing
+
+How to configure BDD - JasminJs
+
+Design patterns
+What design patterns you used and why
+
+General programming
+
+How do you skill up
+Can you do pari programming
+
+General CSS
+
+CSS specificity
+
+https://www.linkedin.com/today/post/article/20140818190427-50578967-9-things-successful-people-won-t-do
+
+
+mixed media does not support pdf - but supports images, videos, swatches, spins etc
+
+
+prototype
+http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/
+http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/
+
+css specificity
+http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/

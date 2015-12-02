@@ -1,0 +1,24 @@
+Angular
+
+1. https://thinkster.io/angulartutorial/a-better-way-to-learn-angularjs/
+2. http://www.ng-newsletter.com/posts/how-to-learn-angular.html
+
+General Front end
+2. http://teamtreehouse.com/library/the-treehouse-show
+
+Responsive design
+1. http://alistapart.com/
+
+HTML
+1. http://code.tutsplus.com/tutorials/30-html-best-practices-for-beginners--net-4957
+
+General Programming
+1. http://tutsplus.com/
+
+CSS
+
+Progressive enhancement
+1. http://www.techrepublic.com/blog/web-designer/understanding-progressive-enhancement-techniques-in-web-design/
+
+Graceful degradation 
+1. http://webdesign.about.com/od/webdesignglossary/g/graceful-degradation.htm

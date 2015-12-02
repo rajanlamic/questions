@@ -1,0 +1,24 @@
+1. how do you make chain
+Just return this on method return value
+
+2. difference between object literal and JSON
+JSON is serialied object and indexes are double quoets {"a": "a", "b" : "b} jSON to object JSON.parse( json )
+Object lieteral is just an object with properties and values {a : 'a', b: 'b'} obhect to JSON  JSON.stringify( obj )
+
+3. hasOwnProperty how returns true and false
+checks if property is the direct property of an object.
+returns false for inherited properties and true for direct properties
+
+4. what is the difference between the array and object literal
+Array has number indexed only. Array can't have associative index in Java Script. syntax []
+Object literal can have associative index as string. syntax {}
+
+http://www.json.org/
+An object is an unordered set of name/value pairs.
+An array is an ordered collection of values
+
+JSON
+A value can be a string in double quotes, or a number, or true or false or null, or an object or an array
+
+5. What is the difference between var mike; and mike;
+Its a variable scope. var makes it local if its inside the function where as without var is always global.
