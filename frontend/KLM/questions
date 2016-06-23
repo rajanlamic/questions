@@ -1,0 +1,28 @@
+1. How do you get inheritance in Javascript?
+2. Explain more about prototype chain? What happens when it reaches to the end of the chain.
+3. What would happen if base object Object is reached and what it returns?
+
+4. Can variable be accesible outside the loop block?
+5. What is let keyword?
+
+6. Explain new and this keyword?
+7. Explain object.crateMethod?
+
+8. How do you get properties of one objec animal to object dog?
+
+9. Do you know about angular custom directive?
+10. How do you use link functions?
+
+11. What is transclude?
+
+12. Have you dome automation and how and what tool you used?
+
+11. How to get element click in Jasmine? what API get element click in jasmine?
+
+12. Explain CSS box model? margin, border and padding?
+13. How to stick element?
+
+14. Explain about border include or exclude in border-box properties for making responsive design.
+
+15. Explain about css priority? How do you achieve it? Explain css specificity.
+

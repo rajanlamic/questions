@@ -1,0 +1,49 @@
+CSS/HTML
+1. Write HTML and CSS as outer wrapper and inside two divs one in left and one in right.
+2. If you get the height 400px of left div, why outer div height is 0px as both divs are floated?
+
+3. How can you put the one div inside the centre of another div where height of inner div is not known?
+
+4. Write a JS function which has one one public property and one public method where public method returns the property.
+function myFunc() {
+    this.myProp = 'myVal';
+
+    this.myMeth = function() {
+        return this.myProp;
+    }
+}
+
+var myObj = new myFunc();
+myObj.getMeth(); // myVal
+
+5. If added following
+
+window.myProp = 'globalProp';
+var f = myObj.myMeth;
+f();
+
+what does f returns?
+what does f() returns? // globalProp
+
+if you want to avoid returing gloablProp what should you do? self = this?
+
+6. Have you used react? isomorphic react?
+
+7. Write a function which extends myFunc and have own method.
+
+function childFunc = function() {
+
+}
+
+childFunc.prototype = myObj;
+
+childFunc.prototype.cldMeth = function() {
+
+}
+
+8. What is your preferance between bootstrap and your own custom css and why?
+
+9. Do you use media query in bootstrap? or class will help you to pick according to the device?
+
+10. Do you use any framework concept as BEM? and why u did not use it? was that as css selector and specificity?
+
