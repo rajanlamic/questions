@@ -1,0 +1,5 @@
+http://pierrespring.com/2010/05/11/function-scope-and-lexical-scoping/
+
+
+JavaScript functions are first class objects. That means that you can pass functions as arguments or they can be returned
+from a function. They can also be assigned to a variable or stored in an object
