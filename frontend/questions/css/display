@@ -1,0 +1,5 @@
+1. What is the difference between display:none and visibility:hidden
+
+display:none will not be available in the page and does not occupy any space. visibility:hidden hides an element,
+but it will still take up the same space as before. The element will be hidden, but still affect the layout.
+visibility:hidden preserve the space, whereas display:none doesn't preserve the space
