@@ -1,0 +1,4 @@
+
+In JavaScript, ‘this’ normally refers to the object which ‘owns’ the method, but it depends on how a function is called.
+
+https://www.sitepoint.com/what-is-this-in-javascript/

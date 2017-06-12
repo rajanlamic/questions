@@ -1,0 +1,67 @@
+Temporal dead zone and errors with let
+
+Redeclaring the same variable within the same function or block scope raises a SyntaxError.
+
+if (x) {
+  let foo;
+  let foo; // SyntaxError thrown.
+}
+In ECMAScript 2015, let will hoist the variable declaration to the top of the block, but not the initialization. Referencing the variable in the block before the initialization results in a ReferenceError (contrary to a variable declared with var, which will just have the undefined value). The variable is in a "temporal dead zone" from the start of the block until the initialization is processed.
+
+function do_something() {
+  console.log(bar); // undefined
+  console.log(foo); // ReferenceError: foo is not defined
+  var bar = 1;
+  let foo = 2;
+}
+You may encounter errors in switch statements because there is only one underlying block.
+
+switch(x) {
+  case 0:
+    let foo;
+    break;
+
+  case 1:
+    let foo; // SyntaxError for redeclaration.
+    break;
+}
+Another example of temporal dead zone combined with lexical scoping
+
+Due to lexical scoping, the identifier "foo" inside the expression (foo + 55) evaluates to the if block's foo, and not the overlying variable foo with the value of 33.
+In that very line, the if block's "foo" has already been defined and hoisted, but has not yet reached (and terminated) its declaration statement (which is the statement itself): it's still in the temporal dead zone.
+
+function test(){
+   var foo = 33;
+   if (true) {
+      let foo = (foo + 55); // ReferenceError: foo is not defined
+   }
+}
+test();
+This phenomenon may confuse you in a situation like the following. The instruction "let n of n.a" is already inside the private scope of the for loop's block, hence the identifier "n.a" is resolved to the property 'a' of the 'n' object located in the first part of the instruction itself ("let n"), which is still in the temporal dead zone since its declaration statement has not been reached and terminated.
+
+function go(n) {
+  // n here is defined!
+  console.log(n); // Object {a: [1,2,3]}
+
+  for (let n of n.a) { // ReferenceError: n is not defined
+    console.log(n);
+  }
+}
+
+go({a: [1, 2, 3]});
+Other situations
+When used inside a block, let limits the variable's scope to that block. Note the difference between var whose scope is inside the function where it is declared.
+
+var a = 1;
+var b = 2;
+
+if (a === 1) {
+  var a = 11; // the scope is global
+  let b = 22; // the scope is inside the if-block
+
+  console.log(a);  // 11
+  console.log(b);  // 22
+}
+
+console.log(a); // 11
+console.log(b); // 2

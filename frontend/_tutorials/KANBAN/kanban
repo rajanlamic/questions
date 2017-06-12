@@ -1,0 +1,15 @@
+https://www.versionone.com/what-is-kanban/
+
+Kanban is based on 3 basic principles:
+Visualize what you do today (workflow): seeing all the items in context of each other can be very informative
+Limit the amount of work in progress (WIP): this helps balance the flow-based approach so teams dont start and commit to too much work at once
+Enhance flow: when something is finished, the next highest thing from the backlog is pulled into play
+
+
+Kanban		Scrum
+No prescribed roles	kanban-different-from-scrum-icon	Pre-defined roles of Scrum master, Product owner and team member
+Continuous Delivery	kanban-different-from-scrum-icon	Timeboxed sprints
+Work is pulled through the system (single piece flow)	kanban-different-from-scrum-icon	Work is pulled through the system in batches (the sprint backlog)
+Changes can be made at any time	kanban-different-from-scrum-icon	No changes allowed mid-sprint
+Cycle time	kanban-different-from-scrum-icon	Velocity
+More appropriate in operational environments with a high degree of variability in priority	kanban-different-from-scrum-icon	More appropriate in situations where work can be prioritized in batches that can be left alone
