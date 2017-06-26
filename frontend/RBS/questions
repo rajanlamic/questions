@@ -1,7 +1,7 @@
 React
 
 1. what are life cycles in react?
-2. When you use ref in life cyle?
+2. When you use ref in life cycle?
 
 Redux
 1. What is redux and how does this work
@@ -13,3 +13,11 @@ Javascript?
 2. what is clouser ?
 3. what is hoisting?
 4. what is prototype chain?
+
+At f2f
+
+1. How do you test react component?
+
+Whiteboard
+1. call the component what can pass the list and that can alert on particular item in the list,
+job is not to make a component and call the component which are reususable
