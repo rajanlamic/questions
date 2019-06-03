@@ -132,3 +132,96 @@ Back Questions
 7. Have you faced any challenge with this team functioning?
 8. What are the few challenges this role will have and what oppertunities you see?
 9. How do you take owr your approach towards as improving the technical skills up or technology upgrade? TDD, New versions, new frameworks, code review
+
+
+
+Question
+
+Experian
+
+1. What is event look
+2. What do you think of agile
+
+SKY now TV
+1. What is memoization
+2. What is HOC
+3. How to you update state in Redux
+4. Why Immutable is important
+5. How to test connect component in react redux
+6. What is React Redux flow
+7. What are react life cycles
+8. How does the rendering happens
+9. How to you optimise the react application
+10. How to scale react application
+11. What are keys and why its important
+12. How do you share the code in react
+13. How to type checking in react
+14. How memory leak happens
+
+On F2F
+1. concourse for UI Pipeline
+2. Test to finish within 45 minutes
+
+
+EPAM
+1. Map, Set, weakMap, weakSet
+2. Difference between Canvas and SVG, difference, HTML5
+3. Number prototype this 3.add(2).minus(1) = 4
+4. Find the number array value width and height
+5. Get nextBigNumber
+6. Performance on website
+7. Accessibility how to get 
+8. Name few MVC frameworks
+9. Pattern Library
+10. What is temporal dead zone code
+11.  
+
+Wipro/Lyods
+1. If you assign object to const and change property what will happen
+2. difference between window load and document load
+3. redux saga
+
+Third Space Learning
+1. What is react life cycles
+2. What are redux component
+3. What will happen if you assign object to cost
+4. What are let, var and const
+
+Third space face to face
+1. Framerate on event delegation
+2. How javascript works with time slicing being single thread
+3. Algorithm object comparision with equal properties, fabionaci alrorithm
+4. How to load data in grid from billion of data and when to sort it
+5. White board on hoisting and setTimeout log with before and after log
+6. What you done last role and what it was
+7. What would be the test case for object equity check algorithm
+
+
+TCS/RBS
+1. What are react life cycles in sequence
+2. What are var, let and const and how does they differ
+3. What is difference between functional and class based component
+
+TCS/RBS F2F interview
+1. 4 different screen and data collected from each screen and get the summary at the last one
+2. Use code sandbox for coding
+
+Secgate
+1. Technology used React, D3, Electron, NodeJS, GraphQL
+
+AIG
+1. What is responsive design e.g in layman term what is responsive design
+2. What is code review and pair programming in terms of learning, what benefits
+3. Difference between unit testing and automation, automation on deployment as well
+4. How does the search work as text box and something below, UI, AJAX and elastic search
+5. What is TDD and what is behavioural testing and what tool you use
+6. What is dynamic mocks and how you work parallel with API guys
+7. What tech used to make dynamic mocks
+8. AWS experiance
+9. Does backend language affects front end work and why
+10. Why you write working under JAVA environment even if you were not using it for UI, as they work on Python evnironment
+HR
+1. How did you react when FE changes from jQuery to Node to React
+2. Where is Future heading, AI, more node
+3. How do you get update
+
